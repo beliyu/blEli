@@ -1,0 +1,46 @@
+{
+  "ids": {
+    "User": 4,
+    "AccessToken": 2,
+    "ACL": 1,
+    "RoleMapping": 2,
+    "Role": 2,
+    "group": 5,
+    "theme": 6,
+    "post": 3
+  },
+  "models": {
+    "User": {
+      "1": "{\"password\":\"$2a$10$F6WS0hPGiZoctBVZTbBzi.EA0Ylj0cfFKtDnu1POuVy0bfwS4kk5G\",\"email\":\"beli@b.com\",\"id\":1,\"username\":\"beli\",\"status\":\"The biggg  Boss\"}",
+      "2": "{\"password\":\"$2a$10$heDTtGDpHNkMM89V7dEIAuFlJWTrveOV9cxasf8M8uV4w/ExWc6we\",\"email\":\"hell@h.com\",\"id\":2}",
+      "3": "{\"username\":\"mal\",\"password\":\"$2a$10$wtr0sWlhCVC8w9D9xF7Yee8sfS2cScLqZpILHpc063O//lNYQ24Oi\",\"email\":\"mal@mal.info\",\"id\":3}"
+    },
+    "AccessToken": {
+      "iPrJvBdBmh3wTBxfactuoiPvYiaW9mPJCghCCoQ2PMG1PgxZK9LIaNp72H8BByhn": "{\"id\":\"iPrJvBdBmh3wTBxfactuoiPvYiaW9mPJCghCCoQ2PMG1PgxZK9LIaNp72H8BByhn\",\"ttl\":1209600,\"created\":\"2016-07-02T12:35:34.432Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {
+      "1": "{\"id\":1,\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":1}"
+    },
+    "Role": {
+      "1": "{\"name\":\"admin\",\"description\":\"sva prava\",\"created\":\"2016-07-02T20:01:15.753Z\",\"modified\":\"2016-07-02T20:01:15.753Z\",\"id\":1}"
+    },
+    "group": {
+      "1": "{\"title\":\"Linux\",\"desc\":\" Administracija Linux sistema i opšta rasprava o Linux-u. Korišćenje GNU alata.\",\"id\":1}",
+      "2": "{\"title\":\"Linux aplikacije\",\"desc\":\" Linux aplikativni softver.\",\"id\":2}",
+      "3": "{\"title\":\"Linux desktop okruženja\",\"desc\":\" Desktop upotreba Linux i ostalih UNIX-like operativnih sistema.\",\"id\":3}",
+      "4": "{\"title\":\"Linux hardware \",\"desc\":\"Podesavanje hardvera pod linuxom, drajveri, support software, ...\",\"id\":4}"
+    },
+    "theme": {
+      "1": "{\"title\":\"Instalacija linuxa iz komandne linije\",\"rewiews\":10,\"groupId\":1,\"id\":1}",
+      "2": "{\"title\":\"Nestale pozadine\",\"rewiews\":1,\"groupId\":1,\"id\":2}",
+      "3": "{\"title\":\"Nesto o linuxu\",\"rewievs\":10,\"groupId\":1,\"id\":3}",
+      "4": "{\"title\":\"tema u grupi 4\",\"rewievs\":0,\"groupId\":4,\"id\":4}",
+      "5": "{\"title\":\"Tema za 2 grupu\",\"rewievs\":5,\"groupId\":2,\"id\":5}"
+    },
+    "post": {
+      "1": "{\"body\":\"string prot\",\"datCre\":\"2016-07-04T21:24:13.516Z\",\"themeId\":1,\"groupId\":1,\"ownerId\":1,\"id\":1,\"datMod\":\"2016-07-05T09:28:04.532Z\"}",
+      "2": "{\"body\":\"string 4to4\",\"datCre\":\"2016-07-05T09:33:35.939Z\",\"themeId\":4,\"groupId\":4,\"ownerId\":1,\"id\":2,\"datMod\":\"2016-07-05T09:34:09.554Z\"}"
+    }
+  }
+}
