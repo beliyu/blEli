@@ -11,6 +11,14 @@
       "type": "string",
       "required": true
     },
+    "groupId": {
+      "type": "number",
+      "required": true
+    },
+    "themeId": {
+      "type": "number",
+      "required": true
+    },
     "datCre": {
       "type": "date"
     },

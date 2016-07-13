@@ -17,7 +17,8 @@
       "default": "0"
     },
     "groupId": {
-      "type": "string"
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],

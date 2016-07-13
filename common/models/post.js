@@ -10,6 +10,10 @@ module.exports = function(Post) {
         context.args.data.datMod = Date.now();
         next();
     });
+    Post.beforeRemote('upsert', function(context, user, next) {
+        context.args.data.datMod = Date.now();
+        next();
+    });
 
   // new Posts - datCre >= last visit
   Post.newP = function(qdatCre, cb) {
@@ -40,6 +44,8 @@ module.exports = function(Post) {
                     "body":value.body,  
                     "datCre":value.datCre,
                     "datMod":value.datMod,
+                    "groupId":value.groupId,
+                    "themeId":value.themeId,
                     "user":value.user()
             });
      })

@@ -1,13 +1,13 @@
 {
   "ids": {
     "User": 4,
-    "AccessToken": 2,
+    "AccessToken": 5,
     "ACL": 1,
     "RoleMapping": 2,
     "Role": 2,
     "group": 5,
-    "theme": 6,
-    "post": 3
+    "theme": 10,
+    "post": 16
   },
   "models": {
     "User": {
@@ -16,7 +16,9 @@
       "3": "{\"username\":\"mal\",\"password\":\"$2a$10$wtr0sWlhCVC8w9D9xF7Yee8sfS2cScLqZpILHpc063O//lNYQ24Oi\",\"email\":\"mal@mal.info\",\"id\":3}"
     },
     "AccessToken": {
-      "iPrJvBdBmh3wTBxfactuoiPvYiaW9mPJCghCCoQ2PMG1PgxZK9LIaNp72H8BByhn": "{\"id\":\"iPrJvBdBmh3wTBxfactuoiPvYiaW9mPJCghCCoQ2PMG1PgxZK9LIaNp72H8BByhn\",\"ttl\":1209600,\"created\":\"2016-07-02T12:35:34.432Z\",\"userId\":1}"
+      "iPrJvBdBmh3wTBxfactuoiPvYiaW9mPJCghCCoQ2PMG1PgxZK9LIaNp72H8BByhn": "{\"id\":\"iPrJvBdBmh3wTBxfactuoiPvYiaW9mPJCghCCoQ2PMG1PgxZK9LIaNp72H8BByhn\",\"ttl\":1209600,\"created\":\"2016-07-02T12:35:34.432Z\",\"userId\":1}",
+      "9PS7UEacph3wqQvn3xzWKs7i6tD1ZouYIV64jHb0jRrNIXnQ2TSDLuV2vEDa0V8X": "{\"id\":\"9PS7UEacph3wqQvn3xzWKs7i6tD1ZouYIV64jHb0jRrNIXnQ2TSDLuV2vEDa0V8X\",\"ttl\":1209600,\"created\":\"2016-07-08T18:40:14.073Z\",\"userId\":2}",
+      "lhkBa5mvC4iAZ3TCoGVToJP2sAnnC89OlFDZaHjN8mqXFBSyBicPEvzKzrVGmqGw": "{\"id\":\"lhkBa5mvC4iAZ3TCoGVToJP2sAnnC89OlFDZaHjN8mqXFBSyBicPEvzKzrVGmqGw\",\"ttl\":1209600,\"created\":\"2016-07-12T13:34:25.588Z\",\"userId\":3}"
     },
     "ACL": {},
     "RoleMapping": {
@@ -36,11 +38,24 @@
       "2": "{\"title\":\"Nestale pozadine\",\"rewiews\":1,\"groupId\":1,\"id\":2}",
       "3": "{\"title\":\"Nesto o linuxu\",\"rewievs\":10,\"groupId\":1,\"id\":3}",
       "4": "{\"title\":\"tema u grupi 4\",\"rewievs\":0,\"groupId\":4,\"id\":4}",
-      "5": "{\"title\":\"Tema za 2 grupu\",\"rewievs\":5,\"groupId\":2,\"id\":5}"
+      "5": "{\"title\":\"Tema za 2 grupu\",\"rewievs\":5,\"groupId\":2,\"id\":5}",
+      "6": "{\"title\":\"sada stvarno kreiramo temu u 4 grupi\",\"rewievs\":\"0\",\"groupId\":4,\"id\":6}",
+      "7": "{\"title\":\"proba \",\"rewievs\":\"0\",\"groupId\":4,\"id\":7}",
+      "8": "{\"title\":\"e, ovo ako radi ....\",\"rewievs\":\"0\",\"groupId\":4,\"id\":8}",
+      "9": "{\"title\":\"najnovija thema u \\\"linux hardware\\\"\",\"rewievs\":\"0\",\"groupId\":4,\"id\":9}"
     },
     "post": {
       "1": "{\"body\":\"string prot\",\"datCre\":\"2016-07-04T21:24:13.516Z\",\"themeId\":1,\"groupId\":1,\"ownerId\":1,\"id\":1,\"datMod\":\"2016-07-05T09:28:04.532Z\"}",
-      "2": "{\"body\":\"string 4to4\",\"datCre\":\"2016-07-05T09:33:35.939Z\",\"themeId\":4,\"groupId\":4,\"ownerId\":1,\"id\":2,\"datMod\":\"2016-07-05T09:34:09.554Z\"}"
+      "2": "{\"body\":\"string 4to4\",\"datCre\":\"2016-07-05T09:33:35.939Z\",\"themeId\":4,\"groupId\":4,\"ownerId\":1,\"id\":2,\"datMod\":\"2016-07-05T09:34:09.554Z\"}",
+      "3": "{\"body\":\"tekst 2 teme u 1 grupi\",\"datCre\":\"2016-07-08T18:36:40.299Z\",\"id\":3,\"themeId\":2,\"groupId\":1,\"ownerId\":1}",
+      "4": "{\"body\":\"tekst 1 teme u 1 grupi bla-bla\",\"datCre\":\"2016-07-08T18:41:50.776Z\",\"id\":4,\"themeId\":1,\"groupId\":1,\"ownerId\":2}",
+      "5": "{\"body\":\"Postoji prica\",\"datCre\":\"2016-07-10T16:00:28.599Z\",\"themeId\":1,\"groupId\":1,\"ownerId\":3,\"id\":5}",
+      "7": "{\"body\":\"<p>Tema 3 u prvoj grupi</p><p>valjda ...</p>\",\"datCre\":\"2016-07-10T16:07:44.521Z\",\"themeId\":1,\"groupId\":1,\"ownerId\":3,\"id\":7,\"datMod\":\"2016-07-10T17:24:08.249Z\"}",
+      "8": "{\"body\":\"<p>Sada se <strong style=\\\"color: rgb(230, 0, 0);\\\">bas</strong> </p><p>izivljavamo</p>\",\"datCre\":\"2016-07-10T17:16:37.936Z\",\"themeId\":3,\"groupId\":1,\"ownerId\":3,\"id\":8}",
+      "11": "{\"body\":\"<p>Zabole me glava</p>\",\"datCre\":\"2016-07-11T17:31:49.494Z\",\"themeId\":4,\"groupId\":4,\"ownerId\":3,\"id\":11}",
+      "12": "{\"body\":\"<p>jebem ga </p>\",\"groupId\":4,\"themeId\":6,\"datCre\":\"2016-07-12T18:24:04.679Z\",\"ownerId\":3,\"id\":12}",
+      "13": "{\"body\":\"<pre spellcheck=\\\"false\\\">danas opet probamo</pre><p>123 bez</p>\",\"groupId\":4,\"themeId\":8,\"datCre\":\"2016-07-13T11:27:13.302Z\",\"ownerId\":3,\"id\":13,\"datMod\":\"2016-07-13T12:21:59.466Z\"}",
+      "14": "{\"body\":\"<p>123 456 789  pokreni ubacivanj postas posle theme</p>\",\"groupId\":4,\"themeId\":9,\"datCre\":\"2016-07-13T11:28:36.279Z\",\"ownerId\":3,\"id\":14,\"datMod\":\"2016-07-13T12:15:54.914Z\"}"
     }
   }
 }
